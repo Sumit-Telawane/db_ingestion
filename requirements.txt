@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+pydantic>=2.7.0
+pydantic-settings
+punq
+
+# PostgreSQL / SQLAlchemy async
+sqlalchemy[asyncio]
+asyncpg
+
+# Milvus — AsyncMilvusClient available from 2.5.3, stable from 2.6.3
+pymilvus
+
+# Parallel helpers
+anyio
+
+# HTTP requests for testing script
+httpx
